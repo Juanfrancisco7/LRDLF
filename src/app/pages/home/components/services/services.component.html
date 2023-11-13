@@ -1,0 +1,15 @@
+<div class="service_box my-5">
+
+    <h6 class="service_box__title mt-5">
+        {{ title }}
+    </h6>
+
+    <div class="row mt-4">
+        <div class="col text-center" *ngFor="let service of services">
+            <img src="assets/{{service.imgPath}}" alt="{{service.title}}">
+            <p class="service_box__sub_title mt-3">
+                {{ service.title }}
+            </p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+.home_box{
+    &__banner{
+        background-image: url('../../../assets/init_banner.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        min-height: 480px;
+    }
+
+    &__content{
+        overflow-x: hidden;
+    }
+}
